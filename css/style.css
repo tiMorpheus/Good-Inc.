@@ -359,7 +359,9 @@ h3.title a {
     color: #4f4f4f;
 }
 
-h3.title a:hover {
+h3.title a:hover,
+h4.title-news a:hover,
+h5.title-news a:hover{
     color: #333;
 }
 
@@ -405,11 +407,12 @@ h3.title a:hover {
     color: #fff;
 }
 
-.news-bl h3.title a {
+.news-bl h3.title a{
     color: #fff;
 }
 
-.news-bl h3.title a:hover {
+.news-bl h3.title a:hover,
+.selected h4.title-news a:hover {
     color: #ccc;
 }
 
@@ -484,7 +487,13 @@ h4.title-news {
     background: url("../images/star-white.png") repeat-x;
 }
 
+.small{
+    padding: 20px 40px 5px;
+}
 
+h5.title-news a{
+    font-size: 20px;
+}
 
 
 
